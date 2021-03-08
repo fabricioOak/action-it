@@ -40,6 +40,16 @@
     "amount": 80
   },
   {
+    "type": "body",
+    "description": "coloque o antebraço sobre uma mesa, cobre uma toalha enrolada, deixe a mão pendurada na bprda da mesa com a palma para baixo. Mova a mão para cima, até sentir um leve alongamento. Retorne à posição inicial e repoita o movimento dessavez com o cotovelo virado para o seu lado, com a palma da mão virada pra cima. Repira 2 vezes por 10s",
+    "amount": 120
+  },
+  {
+    "type": "body",
+    "description": "Fique de pé ou sente-se com o braço ao lado e com o cotovelo dobrado a 90 graus, com a palma virada para baixo. Gire o antebraço para que a palma da mão fique voltada para cima e depois para baixo. Faça durante 15s",
+    "amount": 90
+  },
+  {
     "type": "eye",
     "description": "Sentado, feche os olhos e cubra-os com as palmas da mão durante 2 minutos, depois abra normalmente.",
     "amount": 90
@@ -59,4 +69,5 @@
     "description": "Em pé, gire a cintura o máximo que puder para a esquerda, segure por cinco segundos. Repita para a direita.",
     "amount": 90
   }
+  
 ]
