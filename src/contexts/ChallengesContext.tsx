@@ -49,14 +49,18 @@ export function ChallengesProvider({
 
   const experienceToNextLevel = Math.pow((level + 1) * 4, 2);
 
+  const levelToS = level.toString();
+  const challengesCompletedToS = challengesCompleted.toString();
+  const currentExperienceToS = currentExperience.toString();
+
   useEffect(() => {
     Notification.requestPermission();
   }, []);
 
   useEffect(() => {
-    Cookies.set("level", String(level));
-    Cookies.set("currentExperience", String(currentExperience));
-    Cookies.set("challengesCompleted", String(challengesCompleted));
+    Cookies.set("level", levelToS);
+    Cookies.set("currentExperience", currentExperienceToS);
+    Cookies.set("challengesCompleted", challengesCompletedToS);
   }, [level, currentExperience, challengesCompleted]);
 
   function levelUp() {
