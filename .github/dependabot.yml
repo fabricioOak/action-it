@@ -1,0 +1,40 @@
+version: 2
+updates:
+  # Enable updates for npm packages
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      # Check for updates every day
+      interval: "daily"
+    # Specify any package update policies or configuration options
+    # For example, you can limit updates to only patch and minor versions:
+    # target-branch: ">=1.0.0 <2.0.0"
+    # Or you can allow updates up to the latest version:
+    # target-branch: ">=1.0.0"
+    # You can also ignore certain packages from being updated:
+    # ignore:
+    #   - package-name
+
+  # Enable updates for Next.js
+  - package-ecosystem: "npm"
+    directory: "/node_modules/next"
+    schedule:
+      # Check for updates every day
+      interval: "daily"
+
+  # Enable updates for TypeScript
+  - package-ecosystem: "npm"
+    directory: "/node_modules/typescript"
+    schedule:
+      # Check for updates every day
+      interval: "daily"
+
+  # Enable updates for ESLint
+  - package-ecosystem: "npm"
+    directory: "/node_modules/eslint"
+    schedule:
+      # Check for updates every day
+      interval: "daily"
+
+  # Enable updates for other dependencies as needed
+
