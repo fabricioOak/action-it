@@ -34,7 +34,7 @@ updates:
     directory: "/node_modules/eslint"
     schedule:
       # Check for updates every day
-      interval: "daily"
+      interval: "monthly"
 
   # Enable updates for other dependencies as needed
 
